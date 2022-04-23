@@ -1,0 +1,23 @@
+.container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ff6347;
+}
+
+.contacts {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ff6347;
+}
+
+.filter {
+  color: #00a6ff;
+  text-align: center;
+}

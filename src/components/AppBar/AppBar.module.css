@@ -1,0 +1,17 @@
+.headerContainer {
+  background-color: #00a6ff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  min-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a363b;
+}

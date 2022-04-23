@@ -1,0 +1,59 @@
+.form {
+  box-sizing: border-box;
+  border: 2px ridge #ff6347;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ff6347;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.name {
+  margin-left: 30px;
+  width: 240px;
+}
+
+.number {
+  margin-left: 14px;
+  width: 240px;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 16px;
+  color: #00a6ff;
+}
+
+.btn {
+  display: block;
+  width: 90px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 10px 3px 10px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 500;
+  border: transparent;
+  background-color: #ffffff;
+  color: #ff6347;
+
+  box-shadow: 5px 5px 10px #c9c9c9, inset -5px -5px 8px -4px #c9c9c9,
+    -5px -5px 10px #fdfdfd, inset 5px 5px 8px -4px #fdfdfd;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 5px 5px 10px #c9c9c9, inset -5px -5px 8px -4px #c9c9c9,
+    inset -6px -6px 8px 0 #fdfdfd, -5px -5px 10px #fdfdfd,
+    inset 5px 5px 8px -4px #fdfdfd, inset 6px 6px 8px 0 #c9c9c9;
+}
