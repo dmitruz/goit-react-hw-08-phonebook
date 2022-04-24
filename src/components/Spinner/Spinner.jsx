@@ -1,5 +1,5 @@
-import Loader from 'react-loader-spinner';
+import { ThreeDots } from 'react-loader-spinner';
 
 export const LoaderSpinner = () => {
-  return <Loader type="ThreeDots" color="#ff6347" height={10} width={20} />;
+  return <ThreeDots type="ThreeDots" color="#ff6347" height={10} width={20} />;
 };

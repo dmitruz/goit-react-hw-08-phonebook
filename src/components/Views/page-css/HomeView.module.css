@@ -1,0 +1,77 @@
+.container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff6347;
+}
+
+.title {
+  font-size: 40px;
+  color: #00a6ff;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: #ff6347;
+}
+
+.paragraph {
+  display: block;
+}
+
+.link {
+  display: inline-block;
+  width: 150px;
+  padding: 3px 10px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #00a6ff;
+  margin: 10px 20px;
+
+  box-shadow: 0px 2px 4px 1px #a49d9b;
+}
+
+.link:hover,
+.link:focus {
+  background-color: #ff6347;
+}
+
+.description {
+  font-size: 20px;
+  color: #00a6ff;
+}
+
+.spanName {
+  color: #ff6347;
+}
+
+.contacts {
+  width: 150px;
+  padding: 3px 10px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #00a6ff;
+  margin: 10px;
+}
+
+.contacts:hover,
+.contacts:focus {
+  text-decoration: underline;
+}

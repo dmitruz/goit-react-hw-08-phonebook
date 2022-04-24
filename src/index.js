@@ -8,24 +8,15 @@ import { App } from './App';
 import 'normalize.css';
 import './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
-      </PersistGate>
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+
 const container = document.getElementById('root');
 ReactDOM.createRoot(container).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
+        <BrowserRouter>
       <App />
+      </BrowserRouter>
       </PersistGate>
     </Provider>
   </React.StrictMode>,
