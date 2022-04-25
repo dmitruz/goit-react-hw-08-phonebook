@@ -11,26 +11,23 @@ import { LoaderSpinner } from './components/Spinner/Spinner';
 import { authOperations, authSelectors } from './redux/auth';
 
 const HomeView = lazy(() => 
-import('Components/Views/HomeView.jsx'),
+import('./components/Views/HomeView'),
 );
 const Phonebook = lazy(() =>
-  import('Components/Phonebook/Phonebook'),
+  import('./components/Phonebook/Phonebook'),
 );
 
 const LoginView = lazy(() =>
-  import('Components/Views/LoginView.jsx'),
+  import('./components/Views/LoginView'),
 );
 
 const RegisterView = lazy(() =>
-  import(
-    'Components/Views/RegisterView.jsx'), 
+  import('./components/Views/RegisterView'), 
   );
 
 
 const NotFoundView = lazy(() =>
-  import(
-    'Components/Views/NotFoundView.jsx' 
-  ),
+  import('./components/Views/NotFoundView' ),
 );
 
 export const App = () => {
@@ -40,9 +37,8 @@ export const App = () => {
   );
 
   useEffect(() => {
-    dispatch(authOperations.fetchCurrentuser());
+    dispatch(authOperations.fetchCurrentUser());
   }, [dispatch]);
-
 
 return (
     !isFetchingCurrentUser && (
@@ -77,4 +73,4 @@ return (
       </>
     )
   );
-}
+};
