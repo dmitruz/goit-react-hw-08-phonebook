@@ -17,11 +17,11 @@
 
 .link:hover,
 .link:focus {
-  color: #ff6347;
+  color: #86db9d;
   transform: scale(1.1);
 }
 
 .active {
   
-  color: #ff6347;
+  color: #86db9d;
 }

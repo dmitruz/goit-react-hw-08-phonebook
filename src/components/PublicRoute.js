@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import { authSelectors } from '../redux/auth';
 
 export default function PublicRoute({
@@ -13,7 +13,7 @@ export default function PublicRoute({
 
   return (
     <Route {...routeProps}>
-      {shouldRedirect ? <Routes to={redirectTo} /> : children}
+      {shouldRedirect ? <Redirect to={redirectTo} /> : children}
     </Route>
   );
 }

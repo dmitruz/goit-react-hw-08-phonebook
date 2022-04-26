@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { lazy, Suspense } from 'react';
-import { Routes } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 
 import AppBar from './components/AppBar/AppBar';
@@ -46,7 +46,7 @@ return (
         <AppBar />
 
         <Suspense fallback={<LoaderSpinner />}>
-          <Routes>
+          <Switch>
             <PublicRoute exact path="/">
               <HomeView />
             </PublicRoute>
@@ -66,7 +66,7 @@ return (
             <PublicRoute>
               <NotFoundView />
             </PublicRoute>
-          </Routes>
+          </Switch>
         </Suspense>
 
         <Toaster position="top-center" />

@@ -13,12 +13,12 @@
 
 .link:hover,
 .link:focus {
-  color: #d72708;
+  color: #86db9d;
   transform: scale(1.1);
 }
 
 .active {
   
   text-decoration: underline;
-  color: #d72708;
+  color: #fff;
 }
