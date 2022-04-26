@@ -2,17 +2,19 @@
   "name": "goit-react-hw-08-phonebook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dmitruz.github.io/goit-react-hw-08-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "gh-pages": "^3.2.3",
     "lazy-imports": "0.0.8",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.3.1",
     "react-loader-spinner": "^6.0.0-0",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

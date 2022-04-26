@@ -11,7 +11,7 @@
 .title {
   margin-bottom: 10px;
   font-size: 25px;
-  color: #ff6347;
+  color: #86db9d;
 }
 
 .form {
@@ -42,7 +42,7 @@
 
 .button:hover,
 .button:focus {
-  background-color: #ff6347;
+  background-color: #86db9d;
   cursor: pointer;
 }
 
